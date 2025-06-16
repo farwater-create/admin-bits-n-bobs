@@ -26,6 +26,16 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check out the repository to the runner
         uses: actions/checkout@v4
+
+      - name: Discord Webhook Action
+      # You may pin to the exact commit or the version.
+      # uses: tsickert/discord-webhook@b217a69502f52803de774ded2b1ab7c282e99645
+        uses: tsickert/discord-webhook@v7.0.0
+        with:
+          # Webhook URL from discord. See: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks for details
+          webhook-url: https://discord.com/api/webhooks/1238624258255622325/gLZFxw1n4ettEVzLCPTKnNZy4oNuugsoN7kEFCV38TT29SZE304PJxlaPMNz0aretUOt
+          # Message that is sent via the webhook.
+          content: test
       
       - name: Run a one-line script
         run: ./updateWebhook.sh
