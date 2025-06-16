@@ -40,3 +40,5 @@ jobs:
         run: chmod +x ./updateWebhook.sh
       - name: Run webhook message updater script
         run: ./updateWebhook.sh
+        env:
+          RULES_WEBHOOK_URL: ${{ secrets.RULES_WEBHOOK_URL }}
