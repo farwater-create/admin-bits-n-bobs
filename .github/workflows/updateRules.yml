@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: /rules
+        working-directory: ./rules
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check out the repository to the runner
@@ -37,5 +37,5 @@ jobs:
           # Message that is sent via the webhook.
           content: test
       
-      - name: Run a one-line script
+      - name: Run webhook message updater script
         run: ./updateWebhook.sh
