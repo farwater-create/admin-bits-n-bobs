@@ -1,0 +1,12 @@
+### About Farwater
+Farwater is a automation and exploration focused modpack used on the Farwater Modpack Server. We have fun tech focused mods to play with such as Create + Addons, ComputerCraft, Applied Energistics,  and many more. We also include fun mods that aren't strictly tech but are fun to play with such as Joy of Painting, and Xercas music maker mod. The pack offers a bunch of custom recipes to balance the game, give players additional challenges and facilitate a stable economy.
+
+### Links
+Website: https://farwater.de/\
+Store: https://farwater.de/store/\
+Discord: https://discord.farwater.de/\
+CurseForge <:curseforge:1348306594491924580>: https://www.curseforge.com/minecraft/modpacks/farwater/\
+Modrinth <:modrinth:1348306596115255430>: https://modrinth.com/organization/farwater/\
+YouTube: https://www.youtube.com/@FarwaterOfficial/\
+Twitter: https://x.com/FarwaterMC/\
+Instagram: https://www.instagram.com/farwaterofficial/\

@@ -1,0 +1,2 @@
+### Summary
+In summary, we can’t guarantee that the modpack or server will work and we do not guarantee support. Treat other players with respect, do not grief or steal, do not spam, do not post shocking or sexual content (This one is very important). Keep in mind that the staff has the ability to interpret these rules and punish you at their discretion. The staff also have the ability to mute someone for being annoying.

@@ -1,0 +1,39 @@
+### 2. Gameplay Rules
+1. Hacked accounts, and/or unauthorized access of an account are not a valid excuse to avoid punishment for violating the rules.
+  1. You are responsible for keeping your account secure and for preventing unauthorized access to your account.
+2. The staff do not have to return items lost as a result of any bugs, errors or server rollbacks.
+  1. Refer to Terms of Service (1.2).
+  2. The staff may refund items using their best judgment and assessment of the situation.
+3. Griefing is not allowed. Griefing is defined as:
+  1. Destroying or altering buildings that do not belong to you except:
+     a) The building in question is not privatized and a reasonable case can be made to the community and/or staff that it should be destroyed.
+     b) The building in question is privatized and you are part of the claim.
+     c) An exception is made by staff.
+  2. Stealing items from other players.
+     a) It is forbidden to siphon/extract resources from chests, and other resources belonging to another player through any means. 
+  3. Building structures or buildings around another players building that are unreasonable or unseemly beyond a reasonable doubt. Examples include but are not limited to:
+     a) Lava casts
+     b) Large bodies of liquids
+  4. Killing or altering entities in someone’s base that do not belong to you is not allowed.
+     a) Renaming an entity is only allowed when:
+           1) The owner of the entity gave you permission.
+           2) Exceptions are made by the staff team.
+     b) Changing what an entity is holding or wearing is only allowed when:
+           1) The owner of the entity gave you permission.
+4. Land claims and builds must adhere to the following guidelines:
+  1. Your build and or claim may not intentionally block access to other people's structures.
+  2. Your build and or claim must not be designed to lure, kill, or otherwise entrap any player.
+  3. Your build and or claim must maintain a 1 chunk distance away from other claims.
+  4. Your build must not destablize work of others, server or area/zone lag or cause server crashes.
+  5. Your build must not include anything inappropriate. This includes but is not limited to:
+     a) Content related to Nazi ideology
+     b) Inappropriate body parts
+  6. Even if an area is unclaimed or there are no claims on the server, you must still follow all gameplay rules (see rule 2).
+5. Alt accounts are not allowed without a given permission from staff.
+  1. You have to ask staff for permission to use an alt account.
+  2. You have to give us a good reason for an alt account.
+6. We have zero tolerance for cheating.
+  1. Xray is not allowed by any means.
+  2. Cracked clients are not allowed.
+  3) Freecam is not allowed unless:
+     a) You have access to Creative or Spectator mode.

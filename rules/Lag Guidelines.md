@@ -1,0 +1,34 @@
+### Lag Guidelines
+1. Create
+    1. Avoid funnels if possible. They are generally bad due to implementation.
+    2. Pipes can be laggy if they have more than 1 input and output and 1 pump.
+    3. Do not build huge vanilla (dripstone + cauldron) lava farms, use a hose pulley to pump from an infinite pool. 
+2. Loose items
+    1. Drills leave behind dropped items.\
+        a) Use cobblestone generators and/or drills on contraption with storage.\
+        b) Use AE2 annihilation planes
+    2. Do not design farms throwing items around or dropping items.\
+        a) Do not drop items into lava using funnels, use chutes instead.
+    3. Make sure that your contraption has enough storage.
+3. Entities
+    1. Keep contraptions small.\
+        a) Any running contraption using block modifying machines (i.e drills, deployers, saws, etc.) should not exceed a maximum of 10x10.\
+        b) You must not run more than 1 contraption at the same time.\
+        c) Having more than 1 contraption is only allowed when:
+            1) The contraptions serve different purposes or uses.
+    2. Avoid excess mobs in a single location. \
+        a) If your mobs are cramping or constantly bumping into each other, you have too many mobs.
+4. Chunk loading
+    1. Chunk loading is not allowed.\
+        a) Chunk loaders are disabled (if there are any)\
+        b) Forceloaded chunks are an exception. They are only available for donators.
+5. Other
+    1. Do not carry contraptions, AE2 cells or other items with large amounts of NBT data in your inventory, backpack, shulker, etc.\
+        a) It lags the server.\
+        b) It can "book-ban" you.
+    2. Using Ledger
+        a) Ledger is to be used only for checking if you have been robbed or griefed.\
+            - 1) Do not smap Ledger. Doing this will result in a temporary ban and a warn!
+
+**Intentionally breaking these guidelines will result in stopping or potentially removing your farms/contraptions, and if repeated, it might result in a temporary ban.**
+**These guidelines are in place to make the experience better for everyone.**
