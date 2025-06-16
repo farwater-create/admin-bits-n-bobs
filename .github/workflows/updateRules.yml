@@ -36,6 +36,7 @@ jobs:
           webhook-url: https://discord.com/api/webhooks/1238624258255622325/gLZFxw1n4ettEVzLCPTKnNZy4oNuugsoN7kEFCV38TT29SZE304PJxlaPMNz0aretUOt
           # Message that is sent via the webhook.
           content: test
-      
+      - name: Make ./updateWebhook.sh executable
+        run: chmod +x ./updateWebhook.sh
       - name: Run webhook message updater script
         run: ./updateWebhook.sh
