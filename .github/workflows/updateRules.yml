@@ -42,4 +42,4 @@ jobs:
         run: ./updateWebhook.sh
         env:
           RULES_WEBHOOK_URL: ${{ secrets.RULES_WEBHOOK_URL }}
-          ANNOUNCEMENTS_WEBHOOK_URL: 4{{ secrets.ANNOUNCEMENTS_WEBHOOK_URL }}
+          ANNOUNCEMENTS_WEBHOOK_URL: ${{ secrets.ANNOUNCEMENTS_WEBHOOK_URL }}
