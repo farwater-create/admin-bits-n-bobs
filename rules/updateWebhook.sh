@@ -80,6 +80,24 @@ curl -X PATCH \
     --silent --output /dev/null \
     -w "${WRITE_OUT}" \
     "${RULES_WEBHOOK_URL}/messages/${MSG2_ID}"
-
+    
+# notify that changes where made
+jq -n \
+  --arg chat "${CHAT}" \
+  --arg lag "${LAG}" \
+  --arg summary "${SUMMARY}" \
+  --arg info "${INFO}" \
+  '{
+    content: "The rules have been updated",
+    embeds: [],
+    attachments: []
+  }' > temp/notifChanges.json
+curl -X POST \
+    -H "Content-Type: application/json" \
+    --data @temp/notifChanges.json \
+    --silent --output /dev/null \
+    -w "${WRITE_OUT}" \
+    "${ANNOUNCEMENTS_WEBHOOK_URL}"
+    
 # clean up
 rm -r temp
