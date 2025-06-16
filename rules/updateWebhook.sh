@@ -1,37 +1,85 @@
-# $RULES_WEBHOOK_URL
+MSG1_ID="1338200781865881651"
 TOS=$(cat './raw/Terms of Service.txt')
 GAMEPLAY=$(cat './raw/Gameplay Rules.txt')
 
+MSG2_ID="1338200788580827260"
 CHAT=$(cat './raw/Chat Rules.txt')
 LAG=$(cat './raw/Lag Guidelines.txt')
-SUM=$(cat './Summary.txt')
-INFO=$(cat './Info.txt')
+SUMMARY=$(cat './raw/Summary.txt')
+INFO=$(cat './raw/Info.txt')
 
+# ensure it exists
+mkdir temp
 
-read -r -d '' MSG1 <<- EOF
-{
-  "content": null,
-  "embeds": [
-    {
-      "description": "",
-      "color": null,
-      "image": {
-        "url": "https://cdn.discordapp.com/attachments/1217045014257860628/1288227136674594907/farwater_rules__info.png?ex=6851c803&is=68507683&hm=20bb08efed31133d3989649c0609abe636bd3be1c99b0eee5422193d85f5087e&"
+jq -n \
+  --arg tos "${TOS}" \
+  --arg gameplay "${GAMEPLAY}" \
+  '{
+    content: null,
+    embeds: [
+      {
+        description: "",
+        color: null,
+        image: {
+          url: "https://github.com/farwater-create/admin-bits-n-bobs/blob/main/images/farwater_rules_info.png?raw=true"
+        }
+      },
+      {
+        title: "RULES",
+        description: $tos,
+        color: null,
+        thumbnail: {
+          url: "https://github.com/farwater-create/admin-bits-n-bobs/blob/main/images/farwater_waterwheel_gray_blue.gif?raw=true"
+        }
+      },
+      {
+        description: $gameplay,
+        color: null
       }
-    },
-    {
-      "title": "RULES",
-      "description": "${TOS}",
-      "color": null,
-      "thumbnail": {
-        "url": "https://cdn.discordapp.com/attachments/1175474942121357413/1235225034717401181/a_5c1c86063aa8e58c4a5a12cf201c685c.gif?ex=685170f5&is=68501f75&hm=b6d697f8462b16ca4385a858e97a7dae6a95be6bbc455a81ff26160affb9867e&"
+    ],
+    attachments: []
+  }' > temp/msg1.json
+jq -n \
+  --arg chat "${CHAT}" \
+  --arg lag "${LAG}" \
+  --arg summary "${SUMMARY}" \
+  --arg info "${INFO}" \
+  '{
+    content: null,
+    embeds: [
+      {
+        description: $chat,
+        color: null
+      },
+      {
+        description: $lag,
+        color: null
+      },
+      {
+        description: $summary,
+        color: null
+      },
+      {
+        description: $info,
+        color: null
       }
-    },
-    {
-      "description": "${GAMEPLAY}",
-      "color": null
-    }
-  ],
-  "attachments": []
-}
-EOF
+    ],
+    attachments: []
+  }' > temp/msg2.json
+
+WRITE_OUT="%{method} %{url} HTTP/%{http_version}\n%{response_code}\n"
+curl -X PATCH \
+    -H "Content-Type: application/json" \
+    --data @temp/msg1.json \
+    --silent --output /dev/null \
+    -w "${WRITE_OUT}" \
+    "${RULES_WEBHOOK_URL}/messages/${MSG1_ID}"
+curl -X PATCH \
+    -H "Content-Type: application/json" \
+    --data @temp/msg2.json \
+    --silent --output /dev/null \
+    -w "${WRITE_OUT}" \
+    "${RULES_WEBHOOK_URL}/messages/${MSG2_ID}"
+
+# clean up
+rm -r temp
