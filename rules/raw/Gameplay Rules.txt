@@ -35,5 +35,5 @@
 6. We have zero tolerance for cheating.
   1. Xray is not allowed by any means.
   2. Cracked clients are not allowed.
-  3) Freecam is not allowed unless:
+  3. Freecam is not allowed unless:
      a) You have access to Creative or Spectator mode.
