@@ -12,10 +12,12 @@
     3. Make sure that your contraption has enough storage.
 3. Entities
     1. Keep contraptions small.\
-        a) Any running contraption using block modifying machines (i.e drills, deployers, saws, etc.) should not exceed a maximum of 10x10.\
+        a) Any running contraption using block modifying machines (i.e drills, deployers, saws, etc.) should not exceed a maximum of 100.\
+            - 1) Having more than 100 drills will result in punishments.\
+            - 2) Having more than 100 other block modifying machines is not advised but won’t result in punishment as long as it’s not causing lag.
         b) You must not run more than 1 contraption at the same time.\
-        c) Having more than 1 contraption is only allowed when:
-            1) The contraptions serve different purposes or uses.
+        c) Having more than 1 contraption is only allowed when:\
+            - 1) The contraptions serve different purposes or uses.
     2. Avoid excess mobs in a single location. \
         a) If your mobs are cramping or constantly bumping into each other, you have too many mobs.
 4. Chunk loading
@@ -26,7 +28,7 @@
     1. Do not carry contraptions, AE2 cells or other items with large amounts of NBT data in your inventory, backpack, shulker, etc.\
         a) It lags the server.\
         b) It can "book-ban" you.
-    2. Using Ledger
+    2. Using Ledger\
         a) Ledger is to be used only for checking if you have been robbed or griefed.\
             - 1) Do not smap Ledger. Doing this will result in a temporary ban and a warn!
 

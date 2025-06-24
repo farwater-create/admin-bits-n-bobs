@@ -12,7 +12,9 @@
   3. Make sure that your contraption has enough storage.
 3. Entities
   1. Keep contraptions small.
-     a) Any running contraption using block modifying machines (i.e drills, deployers, saws, etc.) should not exceed a maximum of 10x10.
+     a) Any running contraption using block modifying machines (i.e drills, deployers, saws, etc.) should not exceed a maximum of 100.
+         1) Having more than 100 drills will result in punishments.
+         2) Having more than 100 other block modifying machines is not advised but won’t result in punishment as long as it’s not causing lag.
      b) You must not run more than 1 contraption at the same time.
      c) Having more than 1 contraption is only allowed when:
          1) The contraptions serve different purposes or uses.
