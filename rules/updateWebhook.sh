@@ -8,7 +8,7 @@ LAG=$(cat './raw/Lag Guidelines.txt')
 SUMMARY=$(cat './raw/Summary.txt')
 INFO=$(cat './raw/Info.txt')
 
-DATE=$(date --iso-8601)
+DATE=$(date --iso-8601=minutes)
 
 # ensure it exists
 mkdir temp
