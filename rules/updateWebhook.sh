@@ -8,6 +8,8 @@ LAG=$(cat './raw/Lag Guidelines.txt')
 SUMMARY=$(cat './raw/Summary.txt')
 INFO=$(cat './raw/Info.txt')
 
+DATE=$(date --iso-8601)
+
 # ensure it exists
 mkdir temp
 
@@ -44,6 +46,7 @@ jq -n \
   --arg lag "${LAG}" \
   --arg summary "${SUMMARY}" \
   --arg info "${INFO}" \
+  --arg date "${DATE}" \
   '{
     content: null,
     embeds: [
@@ -62,7 +65,7 @@ jq -n \
       {
         description: $info,
         color: null,
-        timestamp: $(date --iso-8601)
+        timestamp: $date
       }
     ],
     attachments: []
