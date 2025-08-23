@@ -21,7 +21,7 @@ jq -n \
         description: "",
         color: null,
         image: {
-          url: "https://github.com/farwater-create/admin-bits-n-bobs/blob/main/images/farwater_rules_info.png?raw=true"
+          url: "https://raw.githubusercontent.com/farwater-create/admin-bits-n-bobs/refs/heads/main/images/farwater_rules_info.png"
         }
       },
       {
@@ -29,7 +29,7 @@ jq -n \
         description: $tos,
         color: null,
         thumbnail: {
-          url: "https://github.com/farwater-create/admin-bits-n-bobs/blob/main/images/farwater_waterwheel_gray_blue.gif?raw=true"
+          url: "https://raw.githubusercontent.com/farwater-create/admin-bits-n-bobs/refs/heads/main/images/farwater_waterwheel_gray_blue.gif"
         }
       },
       {
