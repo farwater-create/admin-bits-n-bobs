@@ -1,8 +1,8 @@
-MSG1_ID="1338200781865881651"
+MSG1_ID="1408790088762134539"
 TOS=$(cat './raw/Terms of Service.txt')
 GAMEPLAY=$(cat './raw/Gameplay Rules.txt')
 
-MSG2_ID="1338200788580827260"
+MSG2_ID="1408790125172756640"
 CHAT=$(cat './raw/Chat Rules.txt')
 LAG=$(cat './raw/Lag Guidelines.txt')
 SUMMARY=$(cat './raw/Summary.txt')
