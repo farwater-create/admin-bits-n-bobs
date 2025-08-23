@@ -61,7 +61,8 @@ jq -n \
       },
       {
         description: $info,
-        color: null
+        color: null,
+        timestamp: $(date --iso-8601)
       }
     ],
     attachments: []
