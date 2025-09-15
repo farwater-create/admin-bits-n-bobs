@@ -9,4 +9,6 @@ CurseForge <:curseforge:1348306594491924580>: https://www.curseforge.com/minecra
 Modrinth <:modrinth:1348306596115255430>: https://modrinth.com/organization/farwater/\
 YouTube: https://www.youtube.com/@FarwaterOfficial/\
 Twitter: https://x.com/FarwaterMC/\
-Instagram: https://www.instagram.com/farwaterofficial/\
+Instagram: https://www.instagram.com/farwaterofficial/
+
+Shorter version of these rules can be found at https://farwater.de/rules. It might not always be up to date. Always follow the longer version (this one)!
