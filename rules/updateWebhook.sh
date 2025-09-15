@@ -1,12 +1,14 @@
-MSG1_ID="1338200781865881651"
+MSG1_ID="1408790088762134539"
 TOS=$(cat './raw/Terms of Service.txt')
 GAMEPLAY=$(cat './raw/Gameplay Rules.txt')
 
-MSG2_ID="1338200788580827260"
+MSG2_ID="1408790125172756640"
 CHAT=$(cat './raw/Chat Rules.txt')
 LAG=$(cat './raw/Lag Guidelines.txt')
 SUMMARY=$(cat './raw/Summary.txt')
 INFO=$(cat './raw/Info.txt')
+
+DATE=$(date --iso-8601=minutes)
 
 # ensure it exists
 mkdir temp
@@ -21,7 +23,7 @@ jq -n \
         description: "",
         color: null,
         image: {
-          url: "https://github.com/farwater-create/admin-bits-n-bobs/blob/main/images/farwater_rules_info.png?raw=true"
+          url: "https://raw.githubusercontent.com/farwater-create/admin-bits-n-bobs/refs/heads/main/images/farwater_rules_info.png"
         }
       },
       {
@@ -29,7 +31,7 @@ jq -n \
         description: $tos,
         color: null,
         thumbnail: {
-          url: "https://github.com/farwater-create/admin-bits-n-bobs/blob/main/images/farwater_waterwheel_gray_blue.gif?raw=true"
+          url: "https://raw.githubusercontent.com/farwater-create/admin-bits-n-bobs/refs/heads/main/images/farwater_waterwheel_gray_blue.gif"
         }
       },
       {
@@ -44,6 +46,7 @@ jq -n \
   --arg lag "${LAG}" \
   --arg summary "${SUMMARY}" \
   --arg info "${INFO}" \
+  --arg date "${DATE}" \
   '{
     content: null,
     embeds: [
@@ -61,7 +64,8 @@ jq -n \
       },
       {
         description: $info,
-        color: null
+        color: null,
+        timestamp: $date
       }
     ],
     attachments: []
