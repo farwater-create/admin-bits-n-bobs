@@ -10,7 +10,7 @@
     4. Disrespecting members of staff team in any form.\
         a) Disrespecting staff will result in 1 week ban and if it happens again permanent ban.
 4. Spamming is not allowed, spam is defined as:
-    1. Advertising shops and services more than once every 30 minutes.
+    1. Advertising in any form.
     2. Messages repeated more than once on purpose.
     3. Junk or unintelligable messages.
     4. Requesting “op” or other elevated privileges.
