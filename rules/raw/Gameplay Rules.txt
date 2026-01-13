@@ -31,9 +31,10 @@
   6. Even if an area is unclaimed or there are no claims on the server, you must still follow all gameplay rules (see rule 2).
 5. Alt accounts are not allowed without a given permission from staff.
   1. You have to ask staff for permission to use an alt account.
-  2. You have to give us a good reason for an alt account.
+  2. You have to give staff a good reason for an alt account.
 6. We have zero tolerance for cheating.
-  1. Xray is not allowed by any means.
-  2. Cracked clients are not allowed.
-  3. Freecam is not allowed unless:
-     a) You have access to Creative or Spectator mode.
+  1. Cracked clients are not allowed.
+  2. Any Minecraft mod that provides an unfair advantage over other players is prohibited. This includes but is not limited to:
+     a) Xray is not allowed by any means.
+     b) Freecam is not allowed unless:
+           1) You have access to Creative or Spectator mode.
